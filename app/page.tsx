@@ -14,8 +14,8 @@ export default function Home() {
 
   return (
     <div>
-      <Header></Header>
-      <Hero/>
+        <Header></Header>
+        <Hero/>  
     </div>
   );
 }
