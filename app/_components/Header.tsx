@@ -55,7 +55,7 @@ function Header() {
         <button
           className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
         >
-          <span className="sr-only">Toggle menu</span>
+          <span className="sr-only">Toggle Menu</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

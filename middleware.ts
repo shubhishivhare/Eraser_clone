@@ -8,7 +8,7 @@ export async function middleware(request: NextRequest) {
 
     if(!await isAuthenticated())
     {
-        return NextResponse.redirect(new URL('//api/auth/login?post_login_redirect_url=/dashboard', request.url))
+        return NextResponse.redirect(new URL("/api/auth/login", request.url))
     }
   
 }

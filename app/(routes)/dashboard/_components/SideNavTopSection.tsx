@@ -111,8 +111,8 @@ function SideNavTopSection({user,setActiveTeamInfo}:any) {
 
         {/* User Info Section */}
         {user && <div className="mt-2 flex gap-2 items-center">
-            <Image src={user?.picture} alt='user' width={30} height={30}
-            className="rounded-full"/>
+            {user?.picture && <Image src={user?.picture} alt='user' width={30} height={30}
+            className="rounded-full"/>}
             <div>
                 <h2 className="font-bold text-[14px]">{user?.given_name} {user?.family_name}</h2>
                 <h2 className="text-[12px] text-gray-500">{user?.email}</h2>
